@@ -5,7 +5,7 @@
   "author": "Stefan P. (infi) <github-project-seedling01@geist.ga>",
   "license": "BSL-1.0",
   "scripts": {
-    "build": "rsync -a . public --exclude node_modules"
+    "build": "rm -rf public && rsync -a . public --exclude node_modules"
   },
   "private": true
 }
