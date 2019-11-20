@@ -1,4 +1,4 @@
-# CountryLookup
+![CountryLookup](logo.svg)  
   
 ## Run  
   
