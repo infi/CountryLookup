@@ -1,0 +1,13 @@
+@import url("https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css");
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex button {
+    margin-left: 5px;
+}

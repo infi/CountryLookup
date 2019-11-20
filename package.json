@@ -1,0 +1,11 @@
+{
+  "name": "country-lookup",
+  "version": "0.0.0",
+  "description": "My participation project for Seedling School #1",
+  "author": "Stefan P. (infi) <github-project-seedling01@geist.ga>",
+  "license": "BSL-1.0",
+  "scripts": {
+    "build": "rsync -a . public --exclude node_modules"
+  },
+  "private": true
+}

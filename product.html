@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CountryLookup</title>
+    <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="/countrylookup.css">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <img src="logo.svg" alt="CountryLookup">
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/index.html">
+                    Home
+                </a>
+                <a class="navbar-item" href="/product.html">
+                    Lookup
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-medium is-link is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-centered">
+                    Start a search
+                </h1>
+                <h2 class="subtitle">
+                    <div class="flex">
+                        <input class="input" type="text" id="searchbox">
+                        <button class="button is-light" id="searchbtn">Search</button>
+                    </div>
+                    <p class="is-size-6 has-text-centered">Full name, English name or native name.</p>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="error-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <p class="title is-4" id="error-title"></p>
+                    </div>
+                </div>
+                <div class="content" id="error-desc">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container" id="result-container">
+        <section class="card">
+            <section class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <img src="" alt="Country Flag" id="result-flag" width="48px" height="48px">
+                        <span class="title is-size-2" id="result-name"></span>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Top-Level Domains</h3>
+                        <p class="subtitle" id="result-tlds"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Codes</h3>
+                        <p class="subtitle" id="result-codes"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Calling Codes</h3>
+                        <p class="subtitle" id="result-callc"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Capital City</h3>
+                        <p class="subtitle" id="result-capi"></p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Also known as</h3>
+                        <p class="subtitle" id="result-aka"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Continent</h3>
+                        <p class="subtitle" id="result-regio"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Population</h3>
+                        <p class="subtitle" id="result-pop"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Demonym</h3>
+                        <p class="subtitle" id="result-demonym"></p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Timezones</h3>
+                        <p class="subtitle" id="result-time"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Borders (by 3-Char code)</h3>
+                        <p class="subtitle" id="result-border"></p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Native Name</h3>
+                        <p class="subtitle" id="result-native"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Numeric Code</h3>
+                        <p class="subtitle" id="result-numeric"></p>
+                    </div>
+                    <div class="column">
+                        <h3 class="is-size-5 has-text-weight-bold">Languages</h3>
+                        <p class="subtitle" id="result-lang"></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script src="lookup.js"></script>
+</body>
+
+</html>

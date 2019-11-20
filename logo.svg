@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="79.642975mm"
+   height="10.272889mm"
+   viewBox="0 0 79.642975 10.272889"
+   version="1.1"
+   id="svg50"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs44" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="178.32313"
+     inkscape:cy="7.8843562"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="979"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.859196,-87.712565)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'TT Hoves';-inkscape-font-specification:'TT Hoves';letter-spacing:0px;word-spacing:0px;stroke-width:0.26458332"
+       x="76.351196"
+       y="95.727676"
+       id="text54"><tspan
+         sodipodi:role="line"
+         id="tspan52"
+         x="76.351196"
+         y="95.727676"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:11.28888893px;font-family:'TT Hoves';-inkscape-font-specification:'TT Hoves Semi-Bold';stroke-width:0.26458332"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'TT Hoves';-inkscape-font-specification:'TT Hoves Medium'"
+           id="tspan82">Country</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:11.28888893px;font-family:'TT Hoves';-inkscape-font-specification:'TT Hoves Semi-Bold';fill:#3737c8"
+           id="tspan56">Lookup</tspan></tspan></text>
+  </g>
+</svg>
