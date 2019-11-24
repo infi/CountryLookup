@@ -2,7 +2,7 @@
   
 ## Run  
   
-`npm i`. Now you can deploy, preferably the entire thing.
+`npm i`. Now you can deploy, preferably the entire thing. Pre-deployed at https://countrylookup.now.sh
 
 The following text are the answers for the initial questionnaire for participation in Seedling School.
 
