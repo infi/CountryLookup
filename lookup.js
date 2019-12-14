@@ -52,9 +52,9 @@ errorContainer.self.style.display = "none"
  * @returns {void} 
  */
 const initializeSearch = async (query) => {
-    if (!query) return error("Searches cannot be empty", "Fun fact: This tool supports about 240 countries.")
     resultContainer.self.style.display = "none"
     errorContainer.self.style.display = "none"
+    if (!query) return error("Searches cannot be empty", "Fun fact: This tool supports about 240 countries.")
     const res = await fetch("https://restcountries.eu/rest/v2/name/" + String(query))
     const body = await res.json().catch(() => {
         error("Failed to parse response", "Please make sure your query is valid.")
