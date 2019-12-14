@@ -2,7 +2,9 @@
   
 ## Run  
   
-`npm i`. Now you can deploy, preferably the entire thing. Pre-deployed at https://countrylookup.now.sh
+`npm i`, just in case I ever have dependencies. `npm build` is for now.sh, don't run it, it'll delete the nearest `public` folder. Now you can deploy, preferably the entire thing, to a static server, but not your filesystem. Browsers can't handle coolness, and can't handle links beginning when a `/` (slash). This app has lots of both.  
+  
+**Pre-deployed at https://countrylookup.now.sh**
 
 The following text are the answers for the initial questionnaire for participation in Seedling School.
 

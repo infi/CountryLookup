@@ -1,3 +1,12 @@
+/*
+Never gonna give you up
+Never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry
+Never gonna say goodbye
+Never gonna tell a lie and hurt you
+*/
+
 const sel = (q) => document.querySelector(q)
 
 const searchbar = sel("#searchbox")
@@ -5,6 +14,7 @@ const searchbtn = sel("#searchbtn")
 
 searchbar.value = ""
 
+// This contains results
 const resultContainer = {
     self: sel("#result-container"),
     children: {
@@ -26,6 +36,7 @@ const resultContainer = {
     }
 }
 
+// The error container
 const errorContainer = {
     self: sel("#error-container"),
     title: sel("#error-title"),
@@ -48,6 +59,8 @@ const initializeSearch = async (query) => {
     const body = await res.json().catch(() => {
         error("Failed to parse response", "Please make sure your query is valid.")
     })
+
+    // WARNING: The following code is not great...
 
     const country = body[0]
     if (!country) {
@@ -93,11 +106,14 @@ const initializeSearch = async (query) => {
     }
 }
 
+// Press enter to search
 searchbar.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
         initializeSearch(searchbar.value)
     }
 })
+
+// Click on the search button to search
 searchbtn.addEventListener("click", () => [
     initializeSearch(searchbar.value)
 ])
